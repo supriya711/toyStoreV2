@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags-->
+        <!-- Title-->
+        <title>Suha - Multipurpose Ecommerce Mobile Template</title>
+        <!-- Favicon-->
+        <link rel="icon" href="img/core-img/favicon.ico">
+        <link rel="stylesheet" href="http://192.168.0.109/ToyStoreV2/packages/core/css/framework7.bundle.min.css">
+        <link rel="stylesheet" href="http://192.168.0.109/ToyStoreV2/fontawesome-free-5.11.2-web/css/all.css">
+        <!-- Stylesheet-->
+        <link rel="stylesheet" href="customStyle.css">
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+       
+        
+        
+        <script src="https://www.paypal.com/sdk/js?client-id=sb"></script>
+    </head>
+    <body style="overflow-y:auto;">
+    <center>
+    <h4>Choose your Payment Mode</h4>
+    </center>
+    <br>
+    
+    <div class="container">
+        <button class="btn btn-info" style="height: 52px;
+    font-size: 19px;">Cash on Delivery</button>
+        
+    </div>
+    <br>
+    
+    <div id="paypal-button-container" class="container"></div>
+
+  <script>
+    paypal.Buttons().render('#paypal-button-container');
+    // This function displays Smart Payment Buttons on your web page.
+  </script>
+</body>
+</html>
